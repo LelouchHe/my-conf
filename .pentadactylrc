@@ -13,7 +13,5 @@ noremap k 10k
 set maxitems=6
 set go-=s
 
-set hintkeys=asdfghjkl;iure
-
 set hlfind
 set incfind
