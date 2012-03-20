@@ -1,8 +1,8 @@
 
 cd /home/lelouch
 
-noremap h gT
-noremap l gt
+map -b h gT
+map -b l gt
 
 set nextpattern=\s*下一页|下一张|下一篇|下页|后页|较旧的文章\s*,^\bnext\b,\\bnext\\b,^>$,^(>>|»)$,^(>|»),(>|»)$,\\bmore\\b
 set previouspattern=\s*上一页|上一张|上一篇|上页|前页|较新的文章\s*,^\bprev|previous\b,\\bprev|previous\\b,^<$,^(<<|«)$,^(<|«),(<|«)$
@@ -12,3 +12,5 @@ set go-=s
 
 set hlfind
 set incfind
+
+set hintkeys=asdfghjkl;erui
